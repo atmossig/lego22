@@ -1,0 +1,25 @@
+Lego1/src/lego/legoomni/include/legovideomanager.h
+Isle/src/isleapp.h
+Isle/src/isleapp.cpp
+Lego1/src/mxdirectx/mxdirect3d.h
+Lego1/src/mxdirectx/mxdirect3d.cpp
+Lego1/src/mxdirectx/mxdirectdraw.h
+Lego1/src/mxdirectx/mxdirectdraw.cpp
+Lego1/src/mxdirectx/legodxinfo.h
+Lego1/src/mxdirectx/legodxinfo.cpp
+Lego1/src/mxdirectx/mxdirectxinfo.h
+Lego1/src/mxdirectx/mxdirectxinfo.cpp
+Lego1/src/lego/sources/3dmanager/lego3dmanager.h
+Lego1/src/lego/sources/3dmanager/lego3dmanager.cpp
+Lego1/src/tgl/d3drm/impl.h
+Isle/Isle.vcxproj
+Lego1/Lego1.vcxproj
+Lego1/src/realtime/realtimeview.h
+Lego1/src/realtime/realtimeview.cpp
+Lego1/src/viewmanager/viewmanager.h
+Lego1/src/viewmanager/viewmanager.cpp
+Lego1/src/viewmanager/viewroi.h
+Lego1/src/viewmanager/viewroi.cpp
+++ New files to add.
+Lego1/src/vulkan/vulkanrenderer.h
+Lego1/src/vulkan/vulkanrenderer.cpp
