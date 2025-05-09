@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/Lego1/src/lego/sources",
+                "${workspaceFolder}/Lego1/src/lego/legoomni/include",
+                "${workspaceFolder}/Lego1/src/modeldb",
+                "${workspaceFolder}/Lego1/src/mxdirectx",
+                "${workspaceFolder}/Lego1/src/tgl/d3drm",
+                "${workspaceFolder}/Lego1/src/mxgeometry",
+                "${workspaceFolder}/Lego1/src/omni/include",
+                "${workspaceFolder}/Lego1/src/realtime",
+                "${workspaceFolder}/Lego1/src/mxstl",
+                "${workspaceFolder}/Lego1/src",
+                "${workspaceFolder}/Isle/src",
+                "${workspaceFolder}/Lego1/src/lego/legoomni/include/actions",
+                "${env:VULKAN_SDK}/Include"
+            ],
+            "defines": [],
+            "compilerPath": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.3x.x/bin/Hostx64/x64/cl.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}
