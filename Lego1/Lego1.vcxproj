@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\define.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\actors\act2actor.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\actors\act2genactor.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\actors\act3actors.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\actors\act3ammo.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\actors\ambulance.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\actors\bike.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\actors\buildingentity.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\actors\buildings.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\actors\bumpbouy.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\actors\doors.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\actors\dunebuggy.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\actors\helicopter.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\actors\isleactor.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\actors\islepathactor.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\actors\jetski.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\actors\jukeboxentity.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\actors\motorcycle.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\actors\pizza.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\actors\pizzeria.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\actors\racecar.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\actors\radio.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\actors\skateboard.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\actors\towtrack.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\audio\lego3dsound.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\audio\lego3dwavepresenter.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\audio\legocachesoundmanager.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\audio\legocachsound.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\audio\legoloadcachesoundpresenter.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\audio\legosoundmanager.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\audio\mxbackgroundaudiomanager.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\build\legocarbuild.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\build\legocarbuildpresenter.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\common\legoactioncontrolpresenter.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\common\legoactors.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\common\legoanimationmanager.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\common\legoanimmmpresenter.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\common\legobuildingmanager.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\common\legocharactermanager.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\common\legogamestate.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\common\legoobjectfactory.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\common\legophoneme.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\common\legoplantmanager.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\common\legoplants.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\common\legostate.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\common\legotextureinfo.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\common\legoutils.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\common\legovariables.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\common\misc.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\common\mxcompositemediapresenter.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\common\mxcontrolpresenter.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\common\mxtransitionmanager.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\control\legocontrolmanager.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\control\legometerpresenter.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\entity\act2brick.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\entity\act2policestation.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\entity\legoactor.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\entity\legoactorpresenter.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\entity\legocameracontroller.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\entity\legoentity.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\entity\legoentitypresenter.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\entity\legolocations.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\entity\legonavcontroller.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\entity\legopovcontroller.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\entity\legoworld.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\entity\legoworldpresenter.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\input\legoinputmanager.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\main\legomain.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\main\scripts.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\paths\legoanimactor.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\paths\legoextraactor.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\paths\legopathactor.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\paths\legopathboundary.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\paths\legopathcontroller.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\paths\legopathpresenter.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\paths\legopathstruct.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\race\carrace.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\race\jetskirace.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\race\legorace.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\race\legoraceactor.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\race\legoracemap.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\race\legoracers.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\race\legoracespecial.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\race\raceskel.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\video\legoanimpresenter.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\video\legoflctexturepresenter.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\video\legohideanimpresenter.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\video\legolocomotionanimpresenter.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\video\legoloopinganimpresenter.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\video\legomodelpresenter.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\video\legopalettepresenter.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\video\legopartpresenter.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\video\legophonemepresenter.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\video\legotexturepresenter.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\video\legovideomanager.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\worlds\act3.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\worlds\elevatorbottom.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\worlds\gasstation.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\worlds\historybook.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\worlds\hospital.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\worlds\infocenter.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\worlds\infocenterdoor.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\worlds\isle.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\worlds\jukebox.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\worlds\legoact2.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\worlds\police.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\worlds\registrationbook.cpp" />
+    <ClCompile Include="src\lego\legoomni\src\worlds\score.cpp" />
+    <ClCompile Include="src\lego\sources\3dmanager\lego3dmanager.cpp" />
+    <ClCompile Include="src\lego\sources\3dmanager\lego3dview.cpp" />
+    <ClCompile Include="src\lego\sources\3dmanager\legoview1.cpp" />
+    <ClCompile Include="src\lego\sources\3dmanager\tglsurface.cpp" />
+    <ClCompile Include="src\lego\sources\anim\legoanim.cpp" />
+    <ClCompile Include="src\lego\sources\geom\legoedge.cpp" />
+    <ClCompile Include="src\lego\sources\geom\legounkown100db7f4.cpp" />
+    <ClCompile Include="src\lego\sources\geom\legoweedge.cpp" />
+    <ClCompile Include="src\lego\sources\geom\legowegedge.cpp" />
+    <ClCompile Include="src\lego\sources\misc\legocontainer.cpp" />
+    <ClCompile Include="src\lego\sources\misc\legoimage.cpp" />
+    <ClCompile Include="src\lego\sources\misc\legostorage.cpp" />
+    <ClCompile Include="src\lego\sources\misc\legotexture.cpp" />
+    <ClCompile Include="src\lego\sources\misc\legotree.cpp" />
+    <ClCompile Include="src\lego\sources\misc\legounknown.cpp" />
+    <ClCompile Include="src\lego\sources\roi\legolod.cpp" />
+    <ClCompile Include="src\lego\sources\roi\legoroi.cpp" />
+    <ClCompile Include="src\lego\sources\shape\legobox.cpp" />
+    <ClCompile Include="src\lego\sources\shape\legocolor.cpp" />
+    <ClCompile Include="src\lego\sources\shape\legomesh.cpp" />
+    <ClCompile Include="src\lego\sources\shape\legosphere.cpp" />
+    <ClCompile Include="src\lego\sources\shape\legovertex.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\modeldb\modeldb.cpp" />
+    <ClCompile Include="src\mxdirectx\legodxinfo.cpp" />
+    <ClCompile Include="src\mxdirectx\mxdirect3d.cpp" />
+    <ClCompile Include="src\mxdirectx\mxdirectdraw.cpp" />
+    <ClCompile Include="src\mxdirectx\mxdirectxinfo.cpp" />
+    <ClCompile Include="src\omni\src\action\mxdsaction.cpp" />
+    <ClCompile Include="src\omni\src\action\mxdsanim.cpp" />
+    <ClCompile Include="src\omni\src\action\mxdsevent.cpp" />
+    <ClCompile Include="src\omni\src\action\mxdsmediaaction.cpp" />
+    <ClCompile Include="src\omni\src\action\mxdsmultiaction.cpp" />
+    <ClCompile Include="src\omni\src\action\mxdsobject.cpp" />
+    <ClCompile Include="src\omni\src\action\mxdsobjectaction.cpp" />
+    <ClCompile Include="src\omni\src\action\mxdsparallelaction.cpp" />
+    <ClCompile Include="src\omni\src\action\mxdsselectaction.cpp" />
+    <ClCompile Include="src\omni\src\action\mxdsserialaction.cpp" />
+    <ClCompile Include="src\omni\src\action\mxdssound.cpp" />
+    <ClCompile Include="src\omni\src\action\mxdsstill.cpp" />
+    <ClCompile Include="src\omni\src\action\mxdsstreamingaction.cpp" />
+    <ClCompile Include="src\omni\src\audio\mxaudiomanager.cpp" />
+    <ClCompile Include="src\omni\src\audio\mxaudiopresenter.cpp" />
+    <ClCompile Include="src\omni\src\audio\mxloopingmidipresenter.cpp" />
+    <ClCompile Include="src\omni\src\audio\mxmidipresenter.cpp" />
+    <ClCompile Include="src\omni\src\audio\mxmusicmanager.cpp" />
+    <ClCompile Include="src\omni\src\audio\mxmusicpresenter.cpp" />
+    <ClCompile Include="src\omni\src\audio\mxsoundmanager.cpp" />
+    <ClCompile Include="src\omni\src\audio\mxsoundpresenter.cpp" />
+    <ClCompile Include="src\omni\src\audio\mxwavepresenter.cpp" />
+    <ClCompile Include="src\omni\src\common\mxatom.cpp" />
+    <ClCompile Include="src\omni\src\common\mxcompositepresenter.cpp" />
+    <ClCompile Include="src\omni\src\common\mxcore.cpp" />
+    <ClCompile Include="src\omni\src\common\mxdebug.cpp" />
+    <ClCompile Include="src\omni\src\common\mxmediamanager.cpp" />
+    <ClCompile Include="src\omni\src\common\mxmediapresenter.cpp" />
+    <ClCompile Include="src\omni\src\common\mxmisc.cpp" />
+    <ClCompile Include="src\omni\src\common\mxobjectfactory.cpp" />
+    <ClCompile Include="src\omni\src\common\mxpresenter.cpp" />
+    <ClCompile Include="src\omni\src\common\mxstring.cpp" />
+    <ClCompile Include="src\omni\src\common\mxticklemanager.cpp" />
+    <ClCompile Include="src\omni\src\common\mxtimer.cpp" />
+    <ClCompile Include="src\omni\src\common\mxutilities.cpp" />
+    <ClCompile Include="src\omni\src\common\mxvariable.cpp" />
+    <ClCompile Include="src\omni\src\common\mxvariabletable.cpp" />
+    <ClCompile Include="src\omni\src\entity\mxentity.cpp" />
+    <ClCompile Include="src\omni\src\event\mxeventmanager.cpp" />
+    <ClCompile Include="src\omni\src\event\mxeventpresenter.cpp" />
+    <ClCompile Include="src\omni\src\main\mxomni.cpp" />
+    <ClCompile Include="src\omni\src\main\mxomnicreateflags.cpp" />
+    <ClCompile Include="src\omni\src\main\mxomnicreateparam.cpp" />
+    <ClCompile Include="src\omni\src\notify\mxactionnotificationparam.cpp" />
+    <ClCompile Include="src\omni\src\notify\mxnotificationmanager.cpp" />
+    <ClCompile Include="src\omni\src\notify\mxnotificationparam.cpp" />
+    <ClCompile Include="src\omni\src\stream\mxdiskstreamcontroller.cpp" />
+    <ClCompile Include="src\omni\src\stream\mxdiskstreamprovider.cpp" />
+    <ClCompile Include="src\omni\src\stream\mxdsbuffer.cpp" />
+    <ClCompile Include="src\omni\src\stream\mxdschunk.cpp" />
+    <ClCompile Include="src\omni\src\stream\mxdsfile.cpp" />
+    <ClCompile Include="src\omni\src\stream\mxdssubscriber.cpp" />
+    <ClCompile Include="src\omni\src\stream\mxio.cpp" />
+    <ClCompile Include="src\omni\src\stream\mxramstreamcontroller.cpp" />
+    <ClCompile Include="src\omni\src\stream\mxramstreamprovider.cpp" />
+    <ClCompile Include="src\omni\src\stream\mxstreamchunk.cpp" />
+    <ClCompile Include="src\omni\src\stream\mxstreamcontroller.cpp" />
+    <ClCompile Include="src\omni\src\stream\mxstreamer.cpp" />
+    <ClCompile Include="src\omni\src\system\mxautolock.cpp" />
+    <ClCompile Include="src\omni\src\system\mxcriticalsection.cpp" />
+    <ClCompile Include="src\omni\src\system\mxscheduler.cpp" />
+    <ClCompile Include="src\omni\src\system\mxsemaphore.cpp" />
+    <ClCompile Include="src\omni\src\system\mxthread.cpp" />
+    <ClCompile Include="src\omni\src\system\mxticklethread.cpp" />
+    <ClCompile Include="src\omni\src\video\flic.cpp" />
+    <ClCompile Include="src\omni\src\video\mxbitmap.cpp" />
+    <ClCompile Include="src\omni\src\video\mxdisplaysurface.cpp" />
+    <ClCompile Include="src\omni\src\video\mxflcpresenter.cpp" />
+    <ClCompile Include="src\omni\src\video\mxloopingflcpresenter.cpp" />
+    <ClCompile Include="src\omni\src\video\mxloopingsmkpresenter.cpp" />
+    <ClCompile Include="src\omni\src\video\mxpalette.cpp" />
+    <ClCompile Include="src\omni\src\video\mxregion.cpp" />
+    <ClCompile Include="src\omni\src\video\mxsmk.cpp" />
+    <ClCompile Include="src\omni\src\video\mxsmkpresenter.cpp" />
+    <ClCompile Include="src\omni\src\video\mxstillpresenter.cpp" />
+    <ClCompile Include="src\omni\src\video\mxvideomanager.cpp" />
+    <ClCompile Include="src\omni\src\video\mxvideoparam.cpp" />
+    <ClCompile Include="src\omni\src\video\mxvideoparamflags.cpp" />
+    <ClCompile Include="src\omni\src\video\mxvideopresenter.cpp" />
+    <ClCompile Include="src\realtime\orientableroi.cpp" />
+    <ClCompile Include="src\realtime\realtime.cpp" />
+    <ClCompile Include="src\realtime\realtimeview.cpp" />
+    <ClCompile Include="src\tgl\d3drm\camera.cpp" />
+    <ClCompile Include="src\tgl\d3drm\device.cpp" />
+    <ClCompile Include="src\tgl\d3drm\group.cpp" />
+    <ClCompile Include="src\tgl\d3drm\light.cpp" />
+    <ClCompile Include="src\tgl\d3drm\mesh.cpp" />
+    <ClCompile Include="src\tgl\d3drm\meshbuilder.cpp" />
+    <ClCompile Include="src\tgl\d3drm\renderer.cpp" />
+    <ClCompile Include="src\tgl\d3drm\texture.cpp" />
+    <ClCompile Include="src\tgl\d3drm\view.cpp" />
+    <ClCompile Include="src\viewmanager\viewlod.cpp" />
+    <ClCompile Include="src\viewmanager\viewlodlist.cpp" />
+    <ClCompile Include="src\viewmanager\viewmanager.cpp" />
+    <ClCompile Include="src\viewmanager\viewroi.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\define.h" />
+    <ClInclude Include="src\lego\legoomni\include\act2actor.h" />
+    <ClInclude Include="src\lego\legoomni\include\act2brick.h" />
+    <ClInclude Include="src\lego\legoomni\include\act2genactor.h" />
+    <ClInclude Include="src\lego\legoomni\include\act2policestation.h" />
+    <ClInclude Include="src\lego\legoomni\include\act3.h" />
+    <ClInclude Include="src\lego\legoomni\include\act3actors.h" />
+    <ClInclude Include="src\lego\legoomni\include\act3ammo.h" />
+    <ClInclude Include="src\lego\legoomni\include\actions\act2main_actions.h" />
+    <ClInclude Include="src\lego\legoomni\include\actions\act3_actions.h" />
+    <ClInclude Include="src\lego\legoomni\include\actions\actionsfwd.h" />
+    <ClInclude Include="src\lego\legoomni\include\actions\carracer_actions.h" />
+    <ClInclude Include="src\lego\legoomni\include\actions\carrace_actions.h" />
+    <ClInclude Include="src\lego\legoomni\include\actions\copter_actions.h" />
+    <ClInclude Include="src\lego\legoomni\include\actions\credits_actions.h" />
+    <ClInclude Include="src\lego\legoomni\include\actions\dunecar_actions.h" />
+    <ClInclude Include="src\lego\legoomni\include\actions\elevbott_actions.h" />
+    <ClInclude Include="src\lego\legoomni\include\actions\garage_actions.h" />
+    <ClInclude Include="src\lego\legoomni\include\actions\histbook_actions.h" />
+    <ClInclude Include="src\lego\legoomni\include\actions\hospital_actions.h" />
+    <ClInclude Include="src\lego\legoomni\include\actions\infodoor_actions.h" />
+    <ClInclude Include="src\lego\legoomni\include\actions\infomain_actions.h" />
+    <ClInclude Include="src\lego\legoomni\include\actions\infoscor_actions.h" />
+    <ClInclude Include="src\lego\legoomni\include\actions\intro_actions.h" />
+    <ClInclude Include="src\lego\legoomni\include\actions\isle_actions.h" />
+    <ClInclude Include="src\lego\legoomni\include\actions\jetracer_actions.h" />
+    <ClInclude Include="src\lego\legoomni\include\actions\jetrace_actions.h" />
+    <ClInclude Include="src\lego\legoomni\include\actions\jetski_actions.h" />
+    <ClInclude Include="src\lego\legoomni\include\actions\jukeboxw_actions.h" />
+    <ClInclude Include="src\lego\legoomni\include\actions\jukebox_actions.h" />
+    <ClInclude Include="src\lego\legoomni\include\actions\nocd_actions.h" />
+    <ClInclude Include="src\lego\legoomni\include\actions\police_actions.h" />
+    <ClInclude Include="src\lego\legoomni\include\actions\racecar_actions.h" />
+    <ClInclude Include="src\lego\legoomni\include\actions\regbook_actions.h" />
+    <ClInclude Include="src\lego\legoomni\include\actions\sndanim_actions.h" />
+    <ClInclude Include="src\lego\legoomni\include\ambulance.h" />
+    <ClInclude Include="src\lego\legoomni\include\bike.h" />
+    <ClInclude Include="src\lego\legoomni\include\buildingentity.h" />
+    <ClInclude Include="src\lego\legoomni\include\buildings.h" />
+    <ClInclude Include="src\lego\legoomni\include\bumpbouy.h" />
+    <ClInclude Include="src\lego\legoomni\include\carrace.h" />
+    <ClInclude Include="src\lego\legoomni\include\doors.h" />
+    <ClInclude Include="src\lego\legoomni\include\dunebuggy.h" />
+    <ClInclude Include="src\lego\legoomni\include\elevatorbottom.h" />
+    <ClInclude Include="src\lego\legoomni\include\extra.h" />
+    <ClInclude Include="src\lego\legoomni\include\gasstation.h" />
+    <ClInclude Include="src\lego\legoomni\include\helicopter.h" />
+    <ClInclude Include="src\lego\legoomni\include\historybook.h" />
+    <ClInclude Include="src\lego\legoomni\include\hospital.h" />
+    <ClInclude Include="src\lego\legoomni\include\infocenter.h" />
+    <ClInclude Include="src\lego\legoomni\include\infocenterdoor.h" />
+    <ClInclude Include="src\lego\legoomni\include\isle.h" />
+    <ClInclude Include="src\lego\legoomni\include\isleactor.h" />
+    <ClInclude Include="src\lego\legoomni\include\islepathactor.h" />
+    <ClInclude Include="src\lego\legoomni\include\jetski.h" />
+    <ClInclude Include="src\lego\legoomni\include\jetskirace.h" />
+    <ClInclude Include="src\lego\legoomni\include\jukebox.h" />
+    <ClInclude Include="src\lego\legoomni\include\jukeboxentity.h" />
+    <ClInclude Include="src\lego\legoomni\include\lego3dsound.h" />
+    <ClInclude Include="src\lego\legoomni\include\lego3dwavepresenter.h" />
+    <ClInclude Include="src\lego\legoomni\include\legoact2.h" />
+    <ClInclude Include="src\lego\legoomni\include\legoactioncontrolpresenter.h" />
+    <ClInclude Include="src\lego\legoomni\include\legoactor.h" />
+    <ClInclude Include="src\lego\legoomni\include\legoactorpresenter.h" />
+    <ClInclude Include="src\lego\legoomni\include\legoactors.h" />
+    <ClInclude Include="src\lego\legoomni\include\legoanimactor.h" />
+    <ClInclude Include="src\lego\legoomni\include\legoanimationmanager.h" />
+    <ClInclude Include="src\lego\legoomni\include\legoanimmmpresenter.h" />
+    <ClInclude Include="src\lego\legoomni\include\legoanimpresenter.h" />
+    <ClInclude Include="src\lego\legoomni\include\legobuildingmanager.h" />
+    <ClInclude Include="src\lego\legoomni\include\legocachesoundlist.h" />
+    <ClInclude Include="src\lego\legoomni\include\legocachesoundmanager.h" />
+    <ClInclude Include="src\lego\legoomni\include\legocachsound.h" />
+    <ClInclude Include="src\lego\legoomni\include\legocameracontroller.h" />
+    <ClInclude Include="src\lego\legoomni\include\legocarbuild.h" />
+    <ClInclude Include="src\lego\legoomni\include\legocarbuildpresenter.h" />
+    <ClInclude Include="src\lego\legoomni\include\legocharactermanager.h" />
+    <ClInclude Include="src\lego\legoomni\include\legocontrolmanager.h" />
+    <ClInclude Include="src\lego\legoomni\include\legoendanimnotificationparam.h" />
+    <ClInclude Include="src\lego\legoomni\include\legoentity.h" />
+    <ClInclude Include="src\lego\legoomni\include\legoentitylist.h" />
+    <ClInclude Include="src\lego\legoomni\include\legoentitypresenter.h" />
+    <ClInclude Include="src\lego\legoomni\include\legoeventnotificationparam.h" />
+    <ClInclude Include="src\lego\legoomni\include\legoextraactor.h" />
+    <ClInclude Include="src\lego\legoomni\include\legoflctexturepresenter.h" />
+    <ClInclude Include="src\lego\legoomni\include\legogamestate.h" />
+    <ClInclude Include="src\lego\legoomni\include\legohideanimpresenter.h" />
+    <ClInclude Include="src\lego\legoomni\include\legoinputmanager.h" />
+    <ClInclude Include="src\lego\legoomni\include\legoloadcachesoundpresenter.h" />
+    <ClInclude Include="src\lego\legoomni\include\legolocations.h" />
+    <ClInclude Include="src\lego\legoomni\include\legolocomotionanimpresenter.h" />
+    <ClInclude Include="src\lego\legoomni\include\legolodlist.h" />
+    <ClInclude Include="src\lego\legoomni\include\legoloopinganimpresenter.h" />
+    <ClInclude Include="src\lego\legoomni\include\legomain.h" />
+    <ClInclude Include="src\lego\legoomni\include\legometerpresenter.h" />
+    <ClInclude Include="src\lego\legoomni\include\legomodelpresenter.h" />
+    <ClInclude Include="src\lego\legoomni\include\legonamedpart.h" />
+    <ClInclude Include="src\lego\legoomni\include\legonamedpartlist.h" />
+    <ClInclude Include="src\lego\legoomni\include\legonamedplane.h" />
+    <ClInclude Include="src\lego\legoomni\include\legonamedtexture.h" />
+    <ClInclude Include="src\lego\legoomni\include\legonamedtexturelist.h" />
+    <ClInclude Include="src\lego\legoomni\include\legonavcontroller.h" />
+    <ClInclude Include="src\lego\legoomni\include\legoobjectfactory.h" />
+    <ClInclude Include="src\lego\legoomni\include\legopalettepresenter.h" />
+    <ClInclude Include="src\lego\legoomni\include\legopartpresenter.h" />
+    <ClInclude Include="src\lego\legoomni\include\legopathactor.h" />
+    <ClInclude Include="src\lego\legoomni\include\legopathboundary.h" />
+    <ClInclude Include="src\lego\legoomni\include\legopathcontroller.h" />
+    <ClInclude Include="src\lego\legoomni\include\legopathcontrollerlist.h" />
+    <ClInclude Include="src\lego\legoomni\include\legopathedgecontainer.h" />
+    <ClInclude Include="src\lego\legoomni\include\legopathpresenter.h" />
+    <ClInclude Include="src\lego\legoomni\include\legopathstruct.h" />
+    <ClInclude Include="src\lego\legoomni\include\legophoneme.h" />
+    <ClInclude Include="src\lego\legoomni\include\legophonemelist.h" />
+    <ClInclude Include="src\lego\legoomni\include\legophonemepresenter.h" />
+    <ClInclude Include="src\lego\legoomni\include\legoplantmanager.h" />
+    <ClInclude Include="src\lego\legoomni\include\legoplants.h" />
+    <ClInclude Include="src\lego\legoomni\include\legopointofviewcontroller.h" />
+    <ClInclude Include="src\lego\legoomni\include\legorace.h" />
+    <ClInclude Include="src\lego\legoomni\include\legoraceactor.h" />
+    <ClInclude Include="src\lego\legoomni\include\legoracemap.h" />
+    <ClInclude Include="src\lego\legoomni\include\legoracers.h" />
+    <ClInclude Include="src\lego\legoomni\include\legoracespecial.h" />
+    <ClInclude Include="src\lego\legoomni\include\legoroilist.h" />
+    <ClInclude Include="src\lego\legoomni\include\legoroimaplist.h" />
+    <ClInclude Include="src\lego\legoomni\include\legosoundmanager.h" />
+    <ClInclude Include="src\lego\legoomni\include\legostate.h" />
+    <ClInclude Include="src\lego\legoomni\include\legotextureinfo.h" />
+    <ClInclude Include="src\lego\legoomni\include\legotexturepresenter.h" />
+    <ClInclude Include="src\lego\legoomni\include\legotraninfo.h" />
+    <ClInclude Include="src\lego\legoomni\include\legotraninfolist.h" />
+    <ClInclude Include="src\lego\legoomni\include\legoutils.h" />
+    <ClInclude Include="src\lego\legoomni\include\legovariables.h" />
+    <ClInclude Include="src\lego\legoomni\include\legovideomanager.h" />
+    <ClInclude Include="src\lego\legoomni\include\legoworld.h" />
+    <ClInclude Include="src\lego\legoomni\include\legoworldlist.h" />
+    <ClInclude Include="src\lego\legoomni\include\legoworldpresenter.h" />
+    <ClInclude Include="src\lego\legoomni\include\misc.h" />
+    <ClInclude Include="src\lego\legoomni\include\motorcycle.h" />
+    <ClInclude Include="src\lego\legoomni\include\mxbackgroundaudiomanager.h" />
+    <ClInclude Include="src\lego\legoomni\include\mxcompositemediapresenter.h" />
+    <ClInclude Include="src\lego\legoomni\include\mxcontrolpresenter.h" />
+    <ClInclude Include="src\lego\legoomni\include\mxtransitionmanager.h" />
+    <ClInclude Include="src\lego\legoomni\include\pizza.h" />
+    <ClInclude Include="src\lego\legoomni\include\pizzeria.h" />
+    <ClInclude Include="src\lego\legoomni\include\police.h" />
+    <ClInclude Include="src\lego\legoomni\include\racecar.h" />
+    <ClInclude Include="src\lego\legoomni\include\raceskel.h" />
+    <ClInclude Include="src\lego\legoomni\include\radio.h" />
+    <ClInclude Include="src\lego\legoomni\include\registrationbook.h" />
+    <ClInclude Include="src\lego\legoomni\include\score.h" />
+    <ClInclude Include="src\lego\legoomni\include\scripts.h" />
+    <ClInclude Include="src\lego\legoomni\include\skateboard.h" />
+    <ClInclude Include="src\lego\legoomni\include\towtrack.h" />
+    <ClInclude Include="src\lego\sources\3dmanager\lego3dmanager.h" />
+    <ClInclude Include="src\lego\sources\3dmanager\lego3dview.h" />
+    <ClInclude Include="src\lego\sources\3dmanager\legoview1.h" />
+    <ClInclude Include="src\lego\sources\3dmanager\tglsurface.h" />
+    <ClInclude Include="src\lego\sources\anim\legoanim.h" />
+    <ClInclude Include="src\lego\sources\geom\legoedge.h" />
+    <ClInclude Include="src\lego\sources\geom\legounkown100db7f4.h" />
+    <ClInclude Include="src\lego\sources\geom\legoweedge.h" />
+    <ClInclude Include="src\lego\sources\geom\legowegedge.h" />
+    <ClInclude Include="src\lego\sources\misc\legocontainer.h" />
+    <ClInclude Include="src\lego\sources\misc\legoimage.h" />
+    <ClInclude Include="src\lego\sources\misc\legostorage.h" />
+    <ClInclude Include="src\lego\sources\misc\legotexture.h" />
+    <ClInclude Include="src\lego\sources\misc\legotree.h" />
+    <ClInclude Include="src\lego\sources\misc\legotypes.h" />
+    <ClInclude Include="src\lego\sources\misc\legounknown.h" />
+    <ClInclude Include="src\lego\sources\misc\legoutil.h" />
+    <ClInclude Include="src\lego\sources\misc\version.h" />
+    <ClInclude Include="src\lego\sources\roi\legolod.h" />
+    <ClInclude Include="src\lego\sources\roi\legoroi.h" />
+    <ClInclude Include="src\lego\sources\shape\legobox.h" />
+    <ClInclude Include="src\lego\sources\shape\legocolor.h" />
+    <ClInclude Include="src\lego\sources\shape\legomesh.h" />
+    <ClInclude Include="src\lego\sources\shape\legosphere.h" />
+    <ClInclude Include="src\lego\sources\shape\legovertex.h" />
+    <ClInclude Include="src\library_msvc.h" />
+    <ClInclude Include="src\library_smack.h" />
+    <ClInclude Include="src\modeldb\modeldb.h" />
+    <ClInclude Include="src\mxdirectx\legodxinfo.h" />
+    <ClInclude Include="src\mxdirectx\mxdirect3d.h" />
+    <ClInclude Include="src\mxdirectx\mxdirectdraw.h" />
+    <ClInclude Include="src\mxdirectx\mxdirectxinfo.h" />
+    <ClInclude Include="src\mxdirectx\mxstopwatch.h" />
+    <ClInclude Include="src\mxgeometry\mxgeometry3d.h" />
+    <ClInclude Include="src\mxgeometry\mxgeometry4d.h" />
+    <ClInclude Include="src\mxgeometry\mxmatrix.h" />
+    <ClInclude Include="src\mxgeometry\mxquaternion.h" />
+    <ClInclude Include="src\mxstl\mxstl.h" />
+    <ClInclude Include="src\mxstl\stlcompat.h" />
+    <ClInclude Include="src\omni\include\flic.h" />
+    <ClInclude Include="src\omni\include\mxactionnotificationparam.h" />
+    <ClInclude Include="src\omni\include\mxatom.h" />
+    <ClInclude Include="src\omni\include\mxaudiomanager.h" />
+    <ClInclude Include="src\omni\include\mxaudiopresenter.h" />
+    <ClInclude Include="src\omni\include\mxautolock.h" />
+    <ClInclude Include="src\omni\include\mxbitmap.h" />
+    <ClInclude Include="src\omni\include\mxbitset.h" />
+    <ClInclude Include="src\omni\include\mxcollection.h" />
+    <ClInclude Include="src\omni\include\mxcompositepresenter.h" />
+    <ClInclude Include="src\omni\include\mxcore.h" />
+    <ClInclude Include="src\omni\include\mxcriticalsection.h" />
+    <ClInclude Include="src\omni\include\mxdebug.h" />
+    <ClInclude Include="src\omni\include\mxdiskstreamcontroller.h" />
+    <ClInclude Include="src\omni\include\mxdiskstreamprovider.h" />
+    <ClInclude Include="src\omni\include\mxdisplaysurface.h" />
+    <ClInclude Include="src\omni\include\mxdsaction.h" />
+    <ClInclude Include="src\omni\include\mxdsactionlist.h" />
+    <ClInclude Include="src\omni\include\mxdsanim.h" />
+    <ClInclude Include="src\omni\include\mxdsbuffer.h" />
+    <ClInclude Include="src\omni\include\mxdschunk.h" />
+    <ClInclude Include="src\omni\include\mxdsevent.h" />
+    <ClInclude Include="src\omni\include\mxdsfile.h" />
+    <ClInclude Include="src\omni\include\mxdsmediaaction.h" />
+    <ClInclude Include="src\omni\include\mxdsmultiaction.h" />
+    <ClInclude Include="src\omni\include\mxdsobject.h" />
+    <ClInclude Include="src\omni\include\mxdsobjectaction.h" />
+    <ClInclude Include="src\omni\include\mxdsparallelaction.h" />
+    <ClInclude Include="src\omni\include\mxdsselectaction.h" />
+    <ClInclude Include="src\omni\include\mxdsserialaction.h" />
+    <ClInclude Include="src\omni\include\mxdssound.h" />
+    <ClInclude Include="src\omni\include\mxdssource.h" />
+    <ClInclude Include="src\omni\include\mxdsstill.h" />
+    <ClInclude Include="src\omni\include\mxdsstreamingaction.h" />
+    <ClInclude Include="src\omni\include\mxdssubscriber.h" />
+    <ClInclude Include="src\omni\include\mxentity.h" />
+    <ClInclude Include="src\omni\include\mxeventmanager.h" />
+    <ClInclude Include="src\omni\include\mxeventpresenter.h" />
+    <ClInclude Include="src\omni\include\mxflcpresenter.h" />
+    <ClInclude Include="src\omni\include\mxgeometry.h" />
+    <ClInclude Include="src\omni\include\mxhashtable.h" />
+    <ClInclude Include="src\omni\include\mxio.h" />
+    <ClInclude Include="src\omni\include\mxlist.h" />
+    <ClInclude Include="src\omni\include\mxloopingflcpresenter.h" />
+    <ClInclude Include="src\omni\include\mxloopingmidipresenter.h" />
+    <ClInclude Include="src\omni\include\mxloopingsmkpresenter.h" />
+    <ClInclude Include="src\omni\include\mxmediamanager.h" />
+    <ClInclude Include="src\omni\include\mxmediapresenter.h" />
+    <ClInclude Include="src\omni\include\mxmemorypool.h" />
+    <ClInclude Include="src\omni\include\mxmidipresenter.h" />
+    <ClInclude Include="src\omni\include\mxmisc.h" />
+    <ClInclude Include="src\omni\include\mxmusicmanager.h" />
+    <ClInclude Include="src\omni\include\mxmusicpresenter.h" />
+    <ClInclude Include="src\omni\include\mxnextactiondatastart.h" />
+    <ClInclude Include="src\omni\include\mxnotificationmanager.h" />
+    <ClInclude Include="src\omni\include\mxnotificationparam.h" />
+    <ClInclude Include="src\omni\include\mxobjectfactory.h" />
+    <ClInclude Include="src\omni\include\mxomni.h" />
+    <ClInclude Include="src\omni\include\mxomnicreateflags.h" />
+    <ClInclude Include="src\omni\include\mxomnicreateparam.h" />
+    <ClInclude Include="src\omni\include\mxpalette.h" />
+    <ClInclude Include="src\omni\include\mxparam.h" />
+    <ClInclude Include="src\omni\include\mxpresenter.h" />
+    <ClInclude Include="src\omni\include\mxpresenterlist.h" />
+    <ClInclude Include="src\omni\include\mxqueue.h" />
+    <ClInclude Include="src\omni\include\mxramstreamcontroller.h" />
+    <ClInclude Include="src\omni\include\mxramstreamprovider.h" />
+    <ClInclude Include="src\omni\include\mxregion.h" />
+    <ClInclude Include="src\omni\include\mxscheduler.h" />
+    <ClInclude Include="src\omni\include\mxsemaphore.h" />
+    <ClInclude Include="src\omni\include\mxsmk.h" />
+    <ClInclude Include="src\omni\include\mxsmkpresenter.h" />
+    <ClInclude Include="src\omni\include\mxsoundmanager.h" />
+    <ClInclude Include="src\omni\include\mxsoundpresenter.h" />
+    <ClInclude Include="src\omni\include\mxstillpresenter.h" />
+    <ClInclude Include="src\omni\include\mxstreamchunk.h" />
+    <ClInclude Include="src\omni\include\mxstreamchunklist.h" />
+    <ClInclude Include="src\omni\include\mxstreamcontroller.h" />
+    <ClInclude Include="src\omni\include\mxstreamer.h" />
+    <ClInclude Include="src\omni\include\mxstreamprovider.h" />
+    <ClInclude Include="src\omni\include\mxstring.h" />
+    <ClInclude Include="src\omni\include\mxstringlist.h" />
+    <ClInclude Include="src\omni\include\mxthread.h" />
+    <ClInclude Include="src\omni\include\mxticklemanager.h" />
+    <ClInclude Include="src\omni\include\mxticklethread.h" />
+    <ClInclude Include="src\omni\include\mxtimer.h" />
+    <ClInclude Include="src\omni\include\mxtypes.h" />
+    <ClInclude Include="src\omni\include\mxutilities.h" />
+    <ClInclude Include="src\omni\include\mxutilitylist.h" />
+    <ClInclude Include="src\omni\include\mxvariable.h" />
+    <ClInclude Include="src\omni\include\mxvariabletable.h" />
+    <ClInclude Include="src\omni\include\mxvideomanager.h" />
+    <ClInclude Include="src\omni\include\mxvideoparam.h" />
+    <ClInclude Include="src\omni\include\mxvideoparamflags.h" />
+    <ClInclude Include="src\omni\include\mxvideopresenter.h" />
+    <ClInclude Include="src\omni\include\mxwavepresenter.h" />
+    <ClInclude Include="src\realtime\lodlist.h" />
+    <ClInclude Include="src\realtime\matrix.h" />
+    <ClInclude Include="src\realtime\matrix4d.inl.h" />
+    <ClInclude Include="src\realtime\orientableroi.h" />
+    <ClInclude Include="src\realtime\realtime.h" />
+    <ClInclude Include="src\realtime\realtimeview.h" />
+    <ClInclude Include="src\realtime\roi.h" />
+    <ClInclude Include="src\realtime\vector.h" />
+    <ClInclude Include="src\realtime\vector2d.inl.h" />
+    <ClInclude Include="src\realtime\vector3d.inl.h" />
+    <ClInclude Include="src\realtime\vector4d.inl.h" />
+    <ClInclude Include="src\res\resource.h" />
+    <ClInclude Include="src\tgl\d3drm\impl.h" />
+    <ClInclude Include="src\tgl\tgl.h" />
+    <ClInclude Include="src\tgl\tglvector.h" />
+    <ClInclude Include="src\viewmanager\viewlod.h" />
+    <ClInclude Include="src\viewmanager\viewlodlist.h" />
+    <ClInclude Include="src\viewmanager\viewmanager.h" />
+    <ClInclude Include="src\viewmanager\viewroi.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\res\arrow.cur" />
+    <None Include="src\res\busy.cur" />
+    <None Include="src\res\leaf_0.cur" />
+    <None Include="src\res\leaf_1.cur" />
+    <None Include="src\res\leaf_2.cur" />
+    <None Include="src\res\leaf_3.cur" />
+    <None Include="src\res\leaf_4.cur" />
+    <None Include="src\res\leaf_5.cur" />
+    <None Include="src\res\leaf_6.cur" />
+    <None Include="src\res\leaf_7.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="src\res\lego1.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{9afd8f42-a667-4dbe-8a0e-59a5c58c697b}</ProjectGuid>
+    <RootNamespace>Lego1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)Lego1\build\</OutDir>
+    <IntDir>$(SolutionDir)Lego1\intermediate\</IntDir>
+    <TargetName>$(ProjectName)_$(Platform)_$(Configuration)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)Lego1\build\</OutDir>
+    <IntDir>$(SolutionDir)Lego1\intermediate\</IntDir>
+    <TargetName>$(ProjectName)_$(Platform)_$(Configuration)</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;LEGO1_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;LEGO1_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;LEGO1_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>src\lego\sources;src\lego\legoomni\include;src\modeldb;src\mxdirectx;src\tgl\d3drm;src\mxgeometry;src\omni\include;src\realtime;src\mxstl;src\;..\Isle\src;src\lego\legoomni\include\actions;$(VULKAN_SDK)\Include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;LEGO1_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>src\lego\sources;src\lego\legoomni\include;src\modeldb;src\mxdirectx;src\tgl\d3drm;src\mxgeometry;src\omni\include;src\realtime;src\mxstl;src\;..\Isle\src;src\lego\legoomni\include\actions;$(VULKAN_SDK)\Include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

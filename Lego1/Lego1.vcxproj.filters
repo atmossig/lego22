@@ -1,0 +1,1749 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\viewmanager">
+      <UniqueIdentifier>{5997f67c-0265-4346-9ec8-33aa89b13191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tgl">
+      <UniqueIdentifier>{b32f4feb-a430-4397-a723-9b2ed1aac33c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tgl\d3drm">
+      <UniqueIdentifier>{c9ed4a87-014c-43fd-af30-d1b2740d8bd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\realtime">
+      <UniqueIdentifier>{464e2b46-30ab-43ad-a58c-235ecf1a0d86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\omni">
+      <UniqueIdentifier>{17a960c4-075f-48e0-99c9-3f7437cb3bcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\omni\src">
+      <UniqueIdentifier>{f551f690-37b3-47d9-b40a-76410dac3fcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\omni\include">
+      <UniqueIdentifier>{616f4709-1528-4317-845f-d5e95e4b65f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\omni\src\action">
+      <UniqueIdentifier>{7ab46b5f-a33f-45c0-94b4-8b93e08e1c75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\omni\src\audio">
+      <UniqueIdentifier>{67f0bc31-f60b-497f-92ed-51d48d33c50f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\omni\src\common">
+      <UniqueIdentifier>{b1d2a1c9-78af-499f-b5dc-bdf6963f7d74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\omni\src\entity">
+      <UniqueIdentifier>{76146095-e749-40a7-8e97-e6bad82e9114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\omni\src\event">
+      <UniqueIdentifier>{97e05fc5-829e-4ba5-ad2b-784b45390ee4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\omni\src\main">
+      <UniqueIdentifier>{831a8896-0054-482f-9c35-874fff8b6728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\omni\src\notify">
+      <UniqueIdentifier>{463f68bd-11fa-4759-85d9-0d45550762f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\omni\src\stream">
+      <UniqueIdentifier>{739ce0bb-00fa-4039-a82e-d45f6d9e1a77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\omni\src\system">
+      <UniqueIdentifier>{64ec104f-ac35-40b0-a3d5-86847b7a02ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\omni\src\video">
+      <UniqueIdentifier>{a96b5a99-73b4-4785-b283-901f6e8b86a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mxstl">
+      <UniqueIdentifier>{32ac7c8a-b5ce-4aee-a9f0-72899846ec12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mxgeometry">
+      <UniqueIdentifier>{1650dddc-ddfe-4461-90a7-48bc9620ed02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mxdirectx">
+      <UniqueIdentifier>{1876770a-7021-4bf9-869f-777d656d60a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modeldb">
+      <UniqueIdentifier>{75411ff1-6325-4ef1-b892-9fbfebf28d37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lego">
+      <UniqueIdentifier>{c3772343-4a2b-44eb-9748-81b48c4c42df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lego\sources">
+      <UniqueIdentifier>{dc29644b-6bec-4d38-9e41-18132bcb8920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lego\legoomni">
+      <UniqueIdentifier>{13411cbd-cb18-48d7-9d4a-45510bf5b1c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lego\legoomni\include">
+      <UniqueIdentifier>{3b1b1f51-800c-4429-9d14-344e5d27f33d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lego\legoomni\src">
+      <UniqueIdentifier>{a153c759-0c27-4514-8dd9-ef4062e1ec89}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\define.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\viewmanager\viewlod.cpp">
+      <Filter>Source Files\viewmanager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\viewmanager\viewlodlist.cpp">
+      <Filter>Source Files\viewmanager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\viewmanager\viewmanager.cpp">
+      <Filter>Source Files\viewmanager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\viewmanager\viewroi.cpp">
+      <Filter>Source Files\viewmanager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tgl\d3drm\camera.cpp">
+      <Filter>Source Files\tgl\d3drm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tgl\d3drm\device.cpp">
+      <Filter>Source Files\tgl\d3drm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tgl\d3drm\group.cpp">
+      <Filter>Source Files\tgl\d3drm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tgl\d3drm\light.cpp">
+      <Filter>Source Files\tgl\d3drm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tgl\d3drm\mesh.cpp">
+      <Filter>Source Files\tgl\d3drm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tgl\d3drm\meshbuilder.cpp">
+      <Filter>Source Files\tgl\d3drm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tgl\d3drm\renderer.cpp">
+      <Filter>Source Files\tgl\d3drm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tgl\d3drm\texture.cpp">
+      <Filter>Source Files\tgl\d3drm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tgl\d3drm\view.cpp">
+      <Filter>Source Files\tgl\d3drm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\realtime\orientableroi.cpp">
+      <Filter>Source Files\realtime</Filter>
+    </ClCompile>
+    <ClCompile Include="src\realtime\realtime.cpp">
+      <Filter>Source Files\realtime</Filter>
+    </ClCompile>
+    <ClCompile Include="src\realtime\realtimeview.cpp">
+      <Filter>Source Files\realtime</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\action\mxdsaction.cpp">
+      <Filter>Source Files\omni\src\action</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\action\mxdsanim.cpp">
+      <Filter>Source Files\omni\src\action</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\action\mxdsevent.cpp">
+      <Filter>Source Files\omni\src\action</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\action\mxdsmediaaction.cpp">
+      <Filter>Source Files\omni\src\action</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\action\mxdsmultiaction.cpp">
+      <Filter>Source Files\omni\src\action</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\action\mxdsobject.cpp">
+      <Filter>Source Files\omni\src\action</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\action\mxdsobjectaction.cpp">
+      <Filter>Source Files\omni\src\action</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\action\mxdsparallelaction.cpp">
+      <Filter>Source Files\omni\src\action</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\action\mxdsselectaction.cpp">
+      <Filter>Source Files\omni\src\action</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\action\mxdsserialaction.cpp">
+      <Filter>Source Files\omni\src\action</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\action\mxdssound.cpp">
+      <Filter>Source Files\omni\src\action</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\action\mxdsstill.cpp">
+      <Filter>Source Files\omni\src\action</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\action\mxdsstreamingaction.cpp">
+      <Filter>Source Files\omni\src\action</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\audio\mxaudiomanager.cpp">
+      <Filter>Source Files\omni\src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\audio\mxaudiopresenter.cpp">
+      <Filter>Source Files\omni\src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\audio\mxloopingmidipresenter.cpp">
+      <Filter>Source Files\omni\src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\audio\mxmidipresenter.cpp">
+      <Filter>Source Files\omni\src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\audio\mxmusicmanager.cpp">
+      <Filter>Source Files\omni\src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\audio\mxmusicpresenter.cpp">
+      <Filter>Source Files\omni\src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\audio\mxsoundmanager.cpp">
+      <Filter>Source Files\omni\src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\audio\mxsoundpresenter.cpp">
+      <Filter>Source Files\omni\src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\audio\mxwavepresenter.cpp">
+      <Filter>Source Files\omni\src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\common\mxatom.cpp">
+      <Filter>Source Files\omni\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\common\mxcompositepresenter.cpp">
+      <Filter>Source Files\omni\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\common\mxcore.cpp">
+      <Filter>Source Files\omni\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\common\mxdebug.cpp">
+      <Filter>Source Files\omni\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\common\mxmediamanager.cpp">
+      <Filter>Source Files\omni\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\common\mxmediapresenter.cpp">
+      <Filter>Source Files\omni\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\common\mxmisc.cpp">
+      <Filter>Source Files\omni\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\common\mxobjectfactory.cpp">
+      <Filter>Source Files\omni\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\common\mxpresenter.cpp">
+      <Filter>Source Files\omni\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\common\mxstring.cpp">
+      <Filter>Source Files\omni\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\common\mxticklemanager.cpp">
+      <Filter>Source Files\omni\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\common\mxtimer.cpp">
+      <Filter>Source Files\omni\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\common\mxutilities.cpp">
+      <Filter>Source Files\omni\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\common\mxvariable.cpp">
+      <Filter>Source Files\omni\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\common\mxvariabletable.cpp">
+      <Filter>Source Files\omni\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\entity\mxentity.cpp">
+      <Filter>Source Files\omni\src\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\event\mxeventmanager.cpp">
+      <Filter>Source Files\omni\src\event</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\event\mxeventpresenter.cpp">
+      <Filter>Source Files\omni\src\event</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\main\mxomni.cpp">
+      <Filter>Source Files\omni\src\main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\main\mxomnicreateflags.cpp">
+      <Filter>Source Files\omni\src\main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\main\mxomnicreateparam.cpp">
+      <Filter>Source Files\omni\src\main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\notify\mxactionnotificationparam.cpp">
+      <Filter>Source Files\omni\src\notify</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\notify\mxnotificationmanager.cpp">
+      <Filter>Source Files\omni\src\notify</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\notify\mxnotificationparam.cpp">
+      <Filter>Source Files\omni\src\notify</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\stream\mxdiskstreamprovider.cpp">
+      <Filter>Source Files\omni\src\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\stream\mxdsbuffer.cpp">
+      <Filter>Source Files\omni\src\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\stream\mxdschunk.cpp">
+      <Filter>Source Files\omni\src\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\stream\mxdsfile.cpp">
+      <Filter>Source Files\omni\src\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\stream\mxdssubscriber.cpp">
+      <Filter>Source Files\omni\src\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\stream\mxio.cpp">
+      <Filter>Source Files\omni\src\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\stream\mxramstreamcontroller.cpp">
+      <Filter>Source Files\omni\src\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\stream\mxramstreamprovider.cpp">
+      <Filter>Source Files\omni\src\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\stream\mxstreamchunk.cpp">
+      <Filter>Source Files\omni\src\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\stream\mxstreamcontroller.cpp">
+      <Filter>Source Files\omni\src\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\stream\mxstreamer.cpp">
+      <Filter>Source Files\omni\src\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\stream\mxdiskstreamcontroller.cpp">
+      <Filter>Source Files\omni\src\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\system\mxcriticalsection.cpp">
+      <Filter>Source Files\omni\src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\system\mxscheduler.cpp">
+      <Filter>Source Files\omni\src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\system\mxsemaphore.cpp">
+      <Filter>Source Files\omni\src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\system\mxthread.cpp">
+      <Filter>Source Files\omni\src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\system\mxticklethread.cpp">
+      <Filter>Source Files\omni\src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\system\mxautolock.cpp">
+      <Filter>Source Files\omni\src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\video\flic.cpp">
+      <Filter>Source Files\omni\src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\video\mxbitmap.cpp">
+      <Filter>Source Files\omni\src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\video\mxdisplaysurface.cpp">
+      <Filter>Source Files\omni\src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\video\mxflcpresenter.cpp">
+      <Filter>Source Files\omni\src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\video\mxloopingflcpresenter.cpp">
+      <Filter>Source Files\omni\src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\video\mxloopingsmkpresenter.cpp">
+      <Filter>Source Files\omni\src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\video\mxpalette.cpp">
+      <Filter>Source Files\omni\src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\video\mxregion.cpp">
+      <Filter>Source Files\omni\src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\video\mxsmk.cpp">
+      <Filter>Source Files\omni\src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\video\mxsmkpresenter.cpp">
+      <Filter>Source Files\omni\src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\video\mxstillpresenter.cpp">
+      <Filter>Source Files\omni\src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\video\mxvideomanager.cpp">
+      <Filter>Source Files\omni\src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\video\mxvideoparam.cpp">
+      <Filter>Source Files\omni\src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\video\mxvideoparamflags.cpp">
+      <Filter>Source Files\omni\src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\omni\src\video\mxvideopresenter.cpp">
+      <Filter>Source Files\omni\src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modeldb\modeldb.cpp">
+      <Filter>Source Files\modeldb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mxdirectx\legodxinfo.cpp">
+      <Filter>Source Files\mxdirectx</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mxdirectx\mxdirect3d.cpp">
+      <Filter>Source Files\mxdirectx</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mxdirectx\mxdirectdraw.cpp">
+      <Filter>Source Files\mxdirectx</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mxdirectx\mxdirectxinfo.cpp">
+      <Filter>Source Files\mxdirectx</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\sources\3dmanager\lego3dmanager.cpp">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\sources\3dmanager\lego3dview.cpp">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\sources\3dmanager\legoview1.cpp">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\sources\3dmanager\tglsurface.cpp">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\sources\anim\legoanim.cpp">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\sources\geom\legoedge.cpp">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\sources\geom\legounkown100db7f4.cpp">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\sources\geom\legoweedge.cpp">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\sources\geom\legowegedge.cpp">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\sources\misc\legocontainer.cpp">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\sources\misc\legoimage.cpp">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\sources\misc\legostorage.cpp">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\sources\misc\legotexture.cpp">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\sources\misc\legotree.cpp">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\sources\misc\legounknown.cpp">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\sources\roi\legolod.cpp">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\sources\roi\legoroi.cpp">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\sources\shape\legobox.cpp">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\sources\shape\legocolor.cpp">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\sources\shape\legomesh.cpp">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\sources\shape\legosphere.cpp">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\sources\shape\legovertex.cpp">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\actors\act2actor.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\actors\act2genactor.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\actors\act3actors.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\actors\act3ammo.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\actors\ambulance.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\actors\bike.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\actors\buildingentity.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\actors\buildings.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\actors\bumpbouy.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\actors\doors.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\actors\dunebuggy.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\actors\helicopter.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\actors\isleactor.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\actors\islepathactor.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\actors\jetski.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\actors\jukeboxentity.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\actors\motorcycle.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\actors\pizza.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\actors\pizzeria.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\actors\racecar.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\actors\radio.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\actors\skateboard.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\actors\towtrack.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\audio\lego3dsound.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\audio\lego3dwavepresenter.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\audio\legocachesoundmanager.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\audio\legocachsound.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\audio\legoloadcachesoundpresenter.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\audio\legosoundmanager.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\audio\mxbackgroundaudiomanager.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\build\legocarbuild.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\build\legocarbuildpresenter.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\common\legoactioncontrolpresenter.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\common\legoactors.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\common\legoanimationmanager.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\common\legoanimmmpresenter.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\common\legobuildingmanager.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\common\legocharactermanager.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\common\legogamestate.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\common\legoobjectfactory.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\common\legophoneme.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\common\legoplantmanager.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\common\legoplants.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\common\legostate.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\common\legotextureinfo.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\common\legoutils.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\common\legovariables.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\common\misc.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\common\mxcompositemediapresenter.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\common\mxcontrolpresenter.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\common\mxtransitionmanager.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\control\legocontrolmanager.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\control\legometerpresenter.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\entity\act2brick.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\entity\act2policestation.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\entity\legoactor.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\entity\legoactorpresenter.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\entity\legocameracontroller.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\entity\legoentity.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\entity\legoentitypresenter.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\entity\legolocations.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\entity\legonavcontroller.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\entity\legopovcontroller.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\entity\legoworld.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\entity\legoworldpresenter.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\input\legoinputmanager.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\main\legomain.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\main\scripts.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\paths\legoanimactor.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\paths\legoextraactor.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\paths\legopathactor.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\paths\legopathboundary.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\paths\legopathcontroller.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\paths\legopathpresenter.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\paths\legopathstruct.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\race\carrace.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\race\jetskirace.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\race\legorace.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\race\legoraceactor.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\race\legoracemap.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\race\legoracers.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\race\legoracespecial.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\race\raceskel.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\video\legoanimpresenter.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\video\legoflctexturepresenter.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\video\legohideanimpresenter.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\video\legolocomotionanimpresenter.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\video\legoloopinganimpresenter.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\video\legomodelpresenter.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\video\legopalettepresenter.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\video\legopartpresenter.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\video\legophonemepresenter.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\video\legotexturepresenter.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\video\legovideomanager.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\worlds\act3.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\worlds\elevatorbottom.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\worlds\gasstation.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\worlds\historybook.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\worlds\hospital.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\worlds\infocenter.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\worlds\infocenterdoor.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\worlds\isle.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\worlds\jukebox.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\worlds\legoact2.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\worlds\police.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\worlds\registrationbook.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lego\legoomni\src\worlds\score.cpp">
+      <Filter>Source Files\lego\legoomni\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\define.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\library_msvc.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\library_smack.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\res\resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\viewmanager\viewlod.h">
+      <Filter>Source Files\viewmanager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\viewmanager\viewlodlist.h">
+      <Filter>Source Files\viewmanager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\viewmanager\viewmanager.h">
+      <Filter>Source Files\viewmanager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\viewmanager\viewroi.h">
+      <Filter>Source Files\viewmanager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tgl\tgl.h">
+      <Filter>Source Files\tgl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tgl\tglvector.h">
+      <Filter>Source Files\tgl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tgl\d3drm\impl.h">
+      <Filter>Source Files\tgl\d3drm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\realtime\lodlist.h">
+      <Filter>Source Files\realtime</Filter>
+    </ClInclude>
+    <ClInclude Include="src\realtime\matrix.h">
+      <Filter>Source Files\realtime</Filter>
+    </ClInclude>
+    <ClInclude Include="src\realtime\matrix4d.inl.h">
+      <Filter>Source Files\realtime</Filter>
+    </ClInclude>
+    <ClInclude Include="src\realtime\orientableroi.h">
+      <Filter>Source Files\realtime</Filter>
+    </ClInclude>
+    <ClInclude Include="src\realtime\realtime.h">
+      <Filter>Source Files\realtime</Filter>
+    </ClInclude>
+    <ClInclude Include="src\realtime\realtimeview.h">
+      <Filter>Source Files\realtime</Filter>
+    </ClInclude>
+    <ClInclude Include="src\realtime\roi.h">
+      <Filter>Source Files\realtime</Filter>
+    </ClInclude>
+    <ClInclude Include="src\realtime\vector.h">
+      <Filter>Source Files\realtime</Filter>
+    </ClInclude>
+    <ClInclude Include="src\realtime\vector2d.inl.h">
+      <Filter>Source Files\realtime</Filter>
+    </ClInclude>
+    <ClInclude Include="src\realtime\vector3d.inl.h">
+      <Filter>Source Files\realtime</Filter>
+    </ClInclude>
+    <ClInclude Include="src\realtime\vector4d.inl.h">
+      <Filter>Source Files\realtime</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\flic.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxactionnotificationparam.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxatom.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxaudiomanager.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxaudiopresenter.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxautolock.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxbitmap.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxbitset.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxcollection.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxcompositepresenter.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxcore.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxcriticalsection.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxdebug.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxdiskstreamcontroller.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxdiskstreamprovider.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxdisplaysurface.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxdsaction.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxdsactionlist.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxdsanim.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxdsbuffer.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxdschunk.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxdsevent.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxdsfile.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxdsmediaaction.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxdsmultiaction.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxdsobject.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxdsobjectaction.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxdsparallelaction.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxdsselectaction.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxdsserialaction.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxdssound.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxdssource.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxdsstill.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxdsstreamingaction.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxdssubscriber.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxentity.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxeventmanager.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxeventpresenter.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxflcpresenter.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxgeometry.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxhashtable.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxio.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxlist.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxloopingflcpresenter.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxloopingmidipresenter.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxloopingsmkpresenter.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxmediamanager.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxmediapresenter.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxmemorypool.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxmidipresenter.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxmisc.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxmusicmanager.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxmusicpresenter.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxnextactiondatastart.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxnotificationmanager.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxnotificationparam.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxobjectfactory.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxomni.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxomnicreateflags.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxomnicreateparam.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxpalette.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxparam.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxpresenter.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxpresenterlist.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxqueue.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxramstreamcontroller.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxramstreamprovider.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxregion.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxscheduler.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxsemaphore.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxsmk.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxsmkpresenter.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxsoundmanager.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxsoundpresenter.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxstillpresenter.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxstreamchunk.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxstreamchunklist.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxstreamcontroller.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxstreamer.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxstreamprovider.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxstring.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxstringlist.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxthread.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxticklemanager.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxticklethread.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxtimer.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxtypes.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxutilities.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxutilitylist.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxvariable.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxvariabletable.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxvideomanager.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxvideoparam.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxvideoparamflags.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxvideopresenter.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\omni\include\mxwavepresenter.h">
+      <Filter>Source Files\omni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\modeldb\modeldb.h">
+      <Filter>Source Files\modeldb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mxdirectx\legodxinfo.h">
+      <Filter>Source Files\mxdirectx</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mxdirectx\mxdirect3d.h">
+      <Filter>Source Files\mxdirectx</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mxdirectx\mxdirectdraw.h">
+      <Filter>Source Files\mxdirectx</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mxdirectx\mxdirectxinfo.h">
+      <Filter>Source Files\mxdirectx</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mxdirectx\mxstopwatch.h">
+      <Filter>Source Files\mxdirectx</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mxgeometry\mxgeometry3d.h">
+      <Filter>Source Files\mxgeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mxgeometry\mxgeometry4d.h">
+      <Filter>Source Files\mxgeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mxgeometry\mxmatrix.h">
+      <Filter>Source Files\mxgeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mxgeometry\mxquaternion.h">
+      <Filter>Source Files\mxgeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mxstl\mxstl.h">
+      <Filter>Source Files\mxstl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mxstl\stlcompat.h">
+      <Filter>Source Files\mxstl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\sources\3dmanager\lego3dmanager.h">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\sources\3dmanager\lego3dview.h">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\sources\3dmanager\legoview1.h">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\sources\3dmanager\tglsurface.h">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\sources\anim\legoanim.h">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\sources\geom\legoedge.h">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\sources\geom\legounkown100db7f4.h">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\sources\geom\legoweedge.h">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\sources\geom\legowegedge.h">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\sources\misc\legocontainer.h">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\sources\misc\legoimage.h">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\sources\misc\legostorage.h">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\sources\misc\legotexture.h">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\sources\misc\legotree.h">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\sources\misc\legotypes.h">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\sources\misc\legounknown.h">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\sources\misc\legoutil.h">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\sources\misc\version.h">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\sources\roi\legolod.h">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\sources\roi\legoroi.h">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\sources\shape\legobox.h">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\sources\shape\legocolor.h">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\sources\shape\legomesh.h">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\sources\shape\legosphere.h">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\sources\shape\legovertex.h">
+      <Filter>Source Files\lego\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\act2actor.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\act2brick.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\act2genactor.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\act2policestation.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\act3.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\act3actors.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\act3ammo.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\actions\act2main_actions.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\actions\act3_actions.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\actions\actionsfwd.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\actions\carracer_actions.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\actions\carrace_actions.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\actions\copter_actions.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\actions\credits_actions.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\actions\dunecar_actions.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\actions\elevbott_actions.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\actions\garage_actions.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\actions\histbook_actions.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\actions\hospital_actions.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\actions\infodoor_actions.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\actions\infomain_actions.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\actions\infoscor_actions.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\actions\intro_actions.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\actions\isle_actions.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\actions\jetracer_actions.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\actions\jetrace_actions.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\actions\jetski_actions.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\actions\jukeboxw_actions.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\actions\jukebox_actions.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\actions\nocd_actions.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\actions\police_actions.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\actions\racecar_actions.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\actions\regbook_actions.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\actions\sndanim_actions.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\ambulance.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\bike.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\buildingentity.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\buildings.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\bumpbouy.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\carrace.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\doors.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\dunebuggy.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\elevatorbottom.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\extra.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\gasstation.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\helicopter.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\historybook.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\hospital.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\infocenter.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\infocenterdoor.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\isle.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\isleactor.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\islepathactor.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\jetski.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\jetskirace.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\jukebox.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\jukeboxentity.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\lego3dsound.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\lego3dwavepresenter.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legoact2.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legoactioncontrolpresenter.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legoactor.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legoactorpresenter.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legoactors.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legoanimactor.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legoanimationmanager.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legoanimmmpresenter.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legoanimpresenter.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legobuildingmanager.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legocachesoundlist.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legocachesoundmanager.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legocachsound.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legocameracontroller.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legocarbuild.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legocarbuildpresenter.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legocharactermanager.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legocontrolmanager.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legoendanimnotificationparam.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legoentity.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legoentitylist.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legoentitypresenter.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legoeventnotificationparam.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legoextraactor.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legoflctexturepresenter.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legogamestate.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legohideanimpresenter.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legoinputmanager.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legoloadcachesoundpresenter.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legolocations.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legolocomotionanimpresenter.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legolodlist.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legoloopinganimpresenter.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legomain.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legometerpresenter.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legomodelpresenter.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legonamedpart.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legonamedpartlist.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legonamedplane.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legonamedtexture.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legonamedtexturelist.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legonavcontroller.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legoobjectfactory.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legopalettepresenter.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legopartpresenter.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legopathactor.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legopathboundary.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legopathcontroller.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legopathcontrollerlist.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legopathedgecontainer.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legopathpresenter.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legopathstruct.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legophoneme.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legophonemelist.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legophonemepresenter.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legoplantmanager.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legoplants.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legopointofviewcontroller.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legorace.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legoraceactor.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legoracemap.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legoracers.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legoracespecial.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legoroilist.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legoroimaplist.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legosoundmanager.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legostate.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legotextureinfo.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legotexturepresenter.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legotraninfo.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legotraninfolist.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legoutils.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legovariables.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legovideomanager.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legoworld.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legoworldlist.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\legoworldpresenter.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\misc.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\motorcycle.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\mxbackgroundaudiomanager.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\mxcompositemediapresenter.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\mxcontrolpresenter.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\mxtransitionmanager.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\pizza.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\pizzeria.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\police.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\racecar.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\raceskel.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\radio.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\registrationbook.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\score.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\scripts.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\skateboard.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lego\legoomni\include\towtrack.h">
+      <Filter>Source Files\lego\legoomni\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\res\arrow.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\res\busy.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\res\leaf_0.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\res\leaf_1.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\res\leaf_2.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\res\leaf_3.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\res\leaf_4.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\res\leaf_5.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\res\leaf_6.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\res\leaf_7.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="src\res\lego1.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
